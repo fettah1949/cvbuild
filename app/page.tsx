@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'CV Builder Pro - Créateur de CV Professionnel Gratuit',
     description: 'Créez un CV professionnel moderne et ATS-friendly en quelques minutes. 5 modèles personnalisables, export PDF instantané.',
-    url: 'https://cvbuilder.com',
+    url: 'https://cvbuild-red.vercel.app',
     images: [
       {
         url: '/og-image.png',

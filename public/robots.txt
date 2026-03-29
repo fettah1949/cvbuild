@@ -7,7 +7,7 @@ Disallow: /builder
 Disallow: /preview
 
 # Sitemap
-Sitemap: https://cvbuilder.com/sitemap.xml
+Sitemap: https://cvbuild-red.vercel.app/sitemap.xml
 
 # Crawl-delay (optional)
 Crawl-delay: 1

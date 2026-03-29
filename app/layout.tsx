@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     apple: '/apple-touch-icon.png',
   },
   manifest: '/manifest.json',
-  metadataBase: new URL('https://cvbuilder.com'),
+  metadataBase: new URL('https://cvbuild-red.vercel.app'),
   alternates: {
     canonical: '/',
     languages: {
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'fr_FR',
-    url: 'https://cvbuilder.com',
+    url: 'https://cvbuild-red.vercel.app',
     title: 'CV Builder Pro - Créateur de CV Professionnel Gratuit',
     description: 'Créez un CV professionnel moderne et ATS-friendly en quelques minutes. 5 modèles personnalisables, export PDF instantané.',
     siteName: 'CV Builder Pro',

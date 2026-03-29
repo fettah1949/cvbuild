@@ -28,7 +28,7 @@ export default function StructuredData() {
     author: {
       '@type': 'Organization',
       name: 'CV Builder Pro',
-      url: 'https://cvbuilder.com',
+      url: 'https://cvbuild-red.vercel.app',
     },
     inLanguage: ['fr', 'en', 'es', 'de'],
     browserRequirements: 'Requires JavaScript. Requires HTML5.',
