@@ -1,0 +1,13 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Disallow functional pages
+Disallow: /builder
+Disallow: /preview
+
+# Sitemap
+Sitemap: https://cvbuilder.com/sitemap.xml
+
+# Crawl-delay (optional)
+Crawl-delay: 1
