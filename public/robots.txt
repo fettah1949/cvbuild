@@ -6,6 +6,10 @@ Allow: /
 Disallow: /builder
 Disallow: /preview
 
+# Allow legal pages
+Allow: /privacy
+Allow: /terms
+
 # Sitemap
 Sitemap: https://cvbuild-red.vercel.app/sitemap.xml
 
