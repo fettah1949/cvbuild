@@ -2,6 +2,8 @@ import Link from 'next/link';
 import { FileText, ArrowRight } from 'lucide-react';
 import type { Metadata } from 'next';
 import StructuredData from '@/components/StructuredData';
+import AdSense from '@/components/AdSense';
+import AdSenseRelaxed from '@/components/AdSenseRelaxed';
 
 export const metadata: Metadata = {
   title: 'Créateur de CV Professionnel Gratuit - 5 Modèles Modernes',
@@ -55,6 +57,8 @@ export default function Home() {
           </Link>
         </div>
         
+        <AdSense />
+        
         <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-8 text-left border-t border-gray-200 pt-12">
           <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
             <h3 className="text-lg font-semibold text-gray-900 mb-2">1. Fill your details</h3>
@@ -69,6 +73,8 @@ export default function Home() {
             <p className="text-gray-600">Get your formatted CV instantly as a PDF file, ready to print or send.</p>
           </div>
         </div>
+        
+        <AdSenseRelaxed />
       </div>
     </div>
     </>

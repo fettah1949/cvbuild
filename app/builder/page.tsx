@@ -8,6 +8,8 @@ import CVTemplate2 from '@/components/CVTemplate2';
 import CVTemplate3 from '@/components/CVTemplate3';
 import CVTemplate4 from '@/components/CVTemplate4';
 import CVTemplate5 from '@/components/CVTemplate5';
+import AdSense from '@/components/AdSense';
+import AdSenseRelaxed from '@/components/AdSenseRelaxed';
 import { CVData, initialCVData } from '@/types';
 import { ArrowLeft, Eye, RefreshCw } from 'lucide-react';
 
@@ -81,6 +83,8 @@ export default function BuilderPage() {
         </div>
       </header>
 
+      <AdSense />
+
       {/* Main Content */}
       <main className="flex-1 flex flex-col lg:flex-row overflow-hidden lg:h-[calc(100vh-73px)]">
         {/* Left Side: Form (Scrollable) */}
@@ -105,6 +109,8 @@ export default function BuilderPage() {
           </div>
         </div>
       </main>
+      
+      <AdSenseRelaxed />
     </div>
   );
 }
